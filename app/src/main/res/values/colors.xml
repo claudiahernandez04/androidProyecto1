@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#EA5B0A</color>
     <color name="magenta">#6F2573</color>
+    <color name="magenta2">#4f1964</color>
+    <color name="azul">#1b449d</color>
 </resources>

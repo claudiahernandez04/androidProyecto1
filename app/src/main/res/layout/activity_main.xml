@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799"
+        tools:layout_editor_absoluteX="0dp"
+        />
+
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
@@ -28,6 +39,7 @@
         />
 
     <Button
+        android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingresar"
@@ -35,18 +47,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.64"
+        app:layout_constraintVertical_bias="0.67"
         />
-
-    <View
-        android:id="@+id/background"
-        android:layout_width="match_parent"
-        android:layout_height="232dp"
-        android:background="@color/orange"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799"
-        tools:layout_editor_absoluteX="0dp" />
 
     <View
         android:id="@+id/footer"
@@ -65,7 +67,7 @@
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.84"
         app:srcCompat="@drawable/fraseinicio" />
 
     <ImageView
@@ -77,7 +79,63 @@
         app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998"
+        app:layout_constraintVertical_bias="0.84"
         app:srcCompat="@drawable/footer2023" />
+
+    <ImageView
+        android:id="@+id/img_Logo_facebook"
+        android:layout_width="34dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/facebook_f"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:tint="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/img_Logo_instagram"
+        android:layout_width="34dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/instagram"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:tint="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/img_Logo_twitter"
+        android:layout_width="34dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/twitter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:tint="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/img_Logo_youtube"
+        android:layout_width="34dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/youtube"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:tint="@color/white"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

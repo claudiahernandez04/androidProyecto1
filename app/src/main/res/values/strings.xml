@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Proyecto1</string>
+    <string name="tituloInicial">¡Bienvenidos Jurados!</string>
+    <string name="tituloBoton">Empezar a votar</string>
+    <string name="p2_tutorial">Como votar</string>
+    <string name="p2_participantes">Participantes</string>
+    <string name="tituloBoton2">Siguiente Jurado</string>
+    <string name="tituloJurado1">Jurado1</string>
+    <string name="contextoSpinners">votar</string>
+    <string name="descripcionlogo">Logo Inicial</string>
+    <string name="salirBoton">Cerrar</string>
+    <string name="tituloGanadores">Puntajes</string>
+    <string name="puntajesBoton">Ver Puntajes</string>
+    <string name="puntaje">0</string>
+    <string name="tituloGanador">El ganador es:</string>
 </resources>
